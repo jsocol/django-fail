@@ -13,6 +13,8 @@ some reason or other, fail.
 load or load slowly. This can be particularly helpful for responses used in
 Ajax-powered applications.
 
+Look at ``fail.decorators.fail`` and ``fail.decorators.slow``.
+
 
 ``@fail(status=500, content='', mimetype='text/html')``
 =======================================================
